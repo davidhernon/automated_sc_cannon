@@ -1,0 +1,16 @@
+{
+  "name": "sc_ripper",
+  "description": "Rip SC Users",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "fs": "0.0.2",
+    "jsonfile": "^2.2.3",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {
+    "parallelshell": "^2.0.0"
+  }
+}
