@@ -10,7 +10,11 @@
     "mkdirp": "^0.5.1",
     "shelljs": "^0.6.0"
   },
+  "scripts": {
+    "clean": "shx rm -rf ./nodes/*"
+  },
   "devDependencies": {
-    "parallelshell": "^2.0.0"
+    "parallelshell": "^2.0.0",
+    "shx": "^0.1.2"
   }
 }
